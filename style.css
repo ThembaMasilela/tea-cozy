@@ -1,0 +1,56 @@
+body,
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    overflow-x: hidden;
+}
+
+nav .nav-container {
+    height: 69px;
+    margin: 0;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#tea-cozy-logo {
+    margin: 10px;
+    height: 50px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    text-decoration: underline;
+    color: seashell;
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+}
+
+.jumbotron-container {
+    background-image: url("images/img-mission-background.jpg");
+    height: 700px;
+    display: fex;
+    width: 1200px;
+}
+
+.mission {
+    background-color: black;
+    color: seashell;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
